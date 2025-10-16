@@ -1,0 +1,31 @@
+{
+  "name": "cli-pokedex",
+  "version": "1.0.0",
+  "description": "Boot.dev Project - Pokedex in TypeScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/main.js",
+    "dev": "npx tsc && node ./dist/main.js",
+    "test": "vitest --run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasgjanot/cli-pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasgjanot/cli-pokedex/issues"
+  },
+  "homepage": "https://github.com/lucasgjanot/cli-pokedex#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.0",
+    "vitest": "^3.2.4"
+  }
+}
